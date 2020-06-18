@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <link href="Estyle.css" rel="stylesheet">
+    <script src="Calculo.JS"></script>
+    <body background="mewtwo.jpg"> </body>
+    <style>
+        option, 
+        button {
+        background:#9932CC;
+        }
+        b {
+            color: #9932CC;
+        }
+       p, input {
+            color: #9932CC;
+
+        }
+    </style>
+
+</head>
+<body>
+    <div id="Fundo">
+    <div class="calculadora">
+    <b><I>Calculator .v2<I></b>
+            <p>
+                <input type="number" name="numero1" id="numero1" placeholder="Primeiro Número"/>
+            </p>
+            <p>
+                <input type="number" name="numero2" id="numero2" placeholder="Segundo Número"/>
+            </p>
+
+        <select name="select" id="select">
+            <option value="adição" id="adicao"> Adição</option>
+            <option value="subtração" id="subtracao"> Subtração</option>
+            <option value="divisão" id="divisao"> Divisão</option>
+            <option value="multiplicação" id="multiplicacao"> Multiplicação</option>
+       </select>
+       <p>
+        <button onclick="calcular()">Resolver</button>
+            <button onclick="limpar()">Limpar</button>
+        </p>
+         <p>
+            <input type="number" name="resultado" id="resultado" readonly placeholder="Resultado"/>
+        </p>
+
+</body>
+</html>

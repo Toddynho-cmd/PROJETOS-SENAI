@@ -1,0 +1,19 @@
+#Fundo {
+    position: absolute;
+    line-height: 4px;
+    width: 250px;
+    height: 250px;
+    border-style: inset;
+    border-color: darkviolet;
+    border-width: 10px 15px 15px;
+    border-radius: 4px;
+}
+
+div.calculadora {
+  position: relative;
+  top: 14%;
+  text-align: center;
+}
+  
+
+    
