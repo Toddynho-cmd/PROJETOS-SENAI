@@ -1,0 +1,64 @@
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #fbf7f5;
+    font-family: Arial;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.barramenu{
+    width: 350px;
+    height: 350px;
+    margin: 100px auto;
+    background-color: #d3d3d3;
+    position: relative;
+}
+
+.barramenu ul{
+    list-style: none;
+}
+
+.barramenu ul, li{
+    float: left;
+}
+
+.barramenu label{
+    width: 80px;
+    padding: 18px;
+    background-color: #1C1C1C;
+    display: block;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+
+.barra:checked ~ label{
+    background-color: #2F4F4F;
+
+}
+
+.barramenu input{
+    display: none;
+}
+
+.content{
+    border-top: 5px solid #2F4F4F;
+    background-color: #fff;
+    display: none;
+    position: absolute;
+    height: 320;
+    width: 600;
+    left: 0;
+}
+.content table{
+    padding: 10px;
+    
+}
+
+.barra:checked ~ .content{
+    display: block; 
+}
